@@ -1,0 +1,22 @@
+{
+  "name": "electron-react-boilerplate",
+  "productName": "electron-react-boilerplate",
+  "version": "2.3.0",
+  "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Electron React Boilerplate Maintainers",
+    "email": "electronreactboilerplate@gmail.com",
+    "url": "https://github.com/electron-react-boilerplate"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../.erb/scripts/BabelRegister.js ../.erb/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/css-modules": "^1.0.2",
+    "@types/material-ui": "^0.21.8",
+    "@types/react-calendar": "^3.1.4"
+  }
+}

@@ -1,0 +1,19 @@
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid white;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.date {
+  margin: 0;
+}
